@@ -256,6 +256,15 @@ a:hover {
   background: linear-gradient(45deg, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.7)), url(../img/cover-bg.jpg);
 }
 
+.masthead .inner {
+  text-align: center;
+}
+
+.masthead .inner h3.masthead-brand {
+  display: block;
+  width: 100%;
+}
+
 .masthead .inner h3.masthead-brand img {
   width: 100px;
   height: auto;
@@ -287,10 +296,37 @@ a:hover {
   color: #545fab;
 }
 
+.cover p.lead {
+  font-size: 72px;
+  font-weight: 400 !important;
+  line-height: 72px;
+}
+
+.cover p.lead strong {
+  font-weight: 800 !important;
+}
+
 .mastfoot {
   font-size: 12px;
 }
 
 .mastfoot i.fa-heart {
   color: red;
+}
+
+.mastfoot ul {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.mastfoot ul li {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.mastfoot ul li a {
+  font-weight: 400 !important;
 }
